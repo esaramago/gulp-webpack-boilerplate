@@ -1,8 +1,22 @@
 # Gulp-Webpack boilerplate
 
-## Credits
-* https://pawelgrzybek.com/using-webpack-with-gulpjs/
-* https://deliciousbrains.com/npm-build-script/#chaining-scripts
+## Build Scripts
+
+### Development
+Two Gulp tasks.
+1. It watches and compiles .scss files;
+2. It watches and bundles .js files, using webpack.config.js inside Gulp.
+```
+npm run build:dev
+```
+
+### Production
+A Gulp task and Webpack
+1. It compiles .scss files;
+2. It bundles .js files
+```
+npm run build:prod
+```
 
 ## Installed packages
 
@@ -28,20 +42,7 @@ Install packages to compile SASS with Gulp
 * webpack-stream
 
 
-## Scripts
 
-### Development
-Two Gulp tasks.
-1. It watches and compiles .scss files;
-2. It watches and bundles .js files, using webpack.config.js inside Gulp.
-```
-build:dev
-```
-
-### Production
-A Gulp task and Webpack
-1. It compiles .scss files;
-2. It bundles .js files
-```
-build:prod
-```
+## Credits
+* https://pawelgrzybek.com/using-webpack-with-gulpjs/
+* https://deliciousbrains.com/npm-build-script/#chaining-scripts
