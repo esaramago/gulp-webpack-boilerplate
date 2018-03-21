@@ -1,5 +1,5 @@
 import { Rectangle } from "./component";
 
-var a = 8;
+var number = 8;
 
-document.body.innerHTML = a;
+document.body.innerHTML = `The number is ${number}!`;
