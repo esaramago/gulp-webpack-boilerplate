@@ -34,13 +34,14 @@ Install packages to compile SASS with Gulp
 Two Gulp tasks.
 1. It watches and compiles .scss files;
 2. It watches and bundles .js files, using webpack.config.js inside Gulp.
-
-*`build:dev`*
+```
+build:dev
+```
 
 ### Production
 A Gulp task and Webpack
 1. It compiles .scss files;
 2. It bundles .js files
 ```
-*build:prod*
+build:prod
 ```
