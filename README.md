@@ -1,5 +1,7 @@
 # Gulp-Webpack boilerplate
 
+Boilerplate with Gulp, for SASS, and Webpack, for js bundling
+
 ## Build Scripts
 
 ### Development
