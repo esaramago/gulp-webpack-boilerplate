@@ -8,17 +8,17 @@
 
 ### Webpack
 Install packages to bundle javascript with Webpack
-```
+
 * webpack webpack-cli
 * webpack-dev-server
 * babel-core
 * babel-loader
 * babel-preset-env
-```
+
 
 ### Gulp (sass)
 Install packages to compile SASS with Gulp
-```
+
 * gulp
 * gulp-sass-glob
 * gulp-sass
@@ -26,7 +26,7 @@ Install packages to compile SASS with Gulp
 * gulp-sourcemaps
 * gulp-watch
 * webpack-stream
-```
+
 
 ## Scripts
 
@@ -34,9 +34,8 @@ Install packages to compile SASS with Gulp
 Two Gulp tasks.
 1. It watches and compiles .scss files;
 2. It watches and bundles .js files, using webpack.config.js inside Gulp.
-```
-*build:dev*
-```
+
+*`build:dev`*
 
 ### Production
 A Gulp task and Webpack
