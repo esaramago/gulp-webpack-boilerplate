@@ -2,7 +2,8 @@
     "name": "gulp-webpack-boilerplate",
     "version": "1.0.0",
     "description": "Boilerplate with Gulp, for SASS, and Webpack, for js bundling",
-    "main": "gulpfile.js",
+    "author": "esaramago",
+    "license": "ISC",
     "scripts": {
         "build:dev": "gulp",
 
@@ -10,8 +11,6 @@
         "gulp-styles": "gulp styles",
         "build:prod": "npm run webpack-bundle && npm run gulp-styles"
     },
-    "author": "esaramago",
-    "license": "ISC",
     "devDependencies": {
         "babel-core": "^6.26.0",
         "babel-loader": "^7.1.4",
