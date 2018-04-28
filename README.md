@@ -2,6 +2,15 @@
 
 Boilerplate with Gulp, for SASS, and Webpack, for js bundling
 
+## For beginners
+Before using this boilerplate, you must have installed:
+- Node js (https://nodejs.org/en)
+- Gulp (https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+
+Then, in the command line, navigate to the project's folder and run `npm install`. This is to install the dependencies in package.js.
+
+Ask me if you have any difficulty.
+
 ## Build Scripts
 
 ### Development
