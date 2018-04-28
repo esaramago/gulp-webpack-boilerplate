@@ -8,6 +8,7 @@ const webpackConfig = require('./webpack.config.js');
 
 gulp.task('scripts', () => {
     gulp.src('./src/js/app.js')
+        .pipe(plumber()) // prevent to stop on error
         .pipe(webpackStream(webpackConfig), webpack)
         .pipe(gulp.dest('./app/'));
 });
