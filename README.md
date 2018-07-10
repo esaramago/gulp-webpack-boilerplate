@@ -34,7 +34,9 @@ npm run build:prod
 ### Webpack
 Install packages to bundle javascript with Webpack
 
-* webpack webpack-cli
+* webpack
+* webpack-cli
+* webpack-stream
 * webpack-dev-server
 * babel-core
 * babel-loader
